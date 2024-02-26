@@ -18,7 +18,10 @@ public class ExercicioComplementar3 {
 		leia.close();
 		
 		horas = segundos/horas;
+		segundos %=3600;
+		
 		minutos = segundos/minutos;
+		segundos %=60;
 		
 		System.out.println("O tempo em hora:minuto:segundo é: " + horas + ":" + minutos + ":" + segundos);
 		
