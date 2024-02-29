@@ -12,7 +12,6 @@ public class ExercicioDoWhile {
 		
 		int num;
 		int soma = 0;
-		int cont = 0;
 		
 		do {
 			System.out.println("Digite um número: ");
@@ -20,7 +19,6 @@ public class ExercicioDoWhile {
 			
 			if(num>=0) {
 				soma = num+soma;
-				cont++;
 			}
 			
 		} while (num != 0);
