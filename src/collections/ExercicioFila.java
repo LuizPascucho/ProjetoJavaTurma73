@@ -38,7 +38,7 @@ public class ExercicioFila {
 			break;
 			
 		case 3:
-			if(fila==null) {
+			if(fila.isEmpty()) {
 				System.out.println("A fila está vazia!");
 			}
 			else {
